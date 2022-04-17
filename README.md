@@ -1,6 +1,8 @@
 # Proyecto Estadística de Alumnos con csv
 **_Proyecto Integrador_** - _Python Inicial_
 
+Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, para determinar cantidad y procentajes de aprobados y desaprobados
+
 ![estadísticas](/images/estadisticas.jpg)
 
 
