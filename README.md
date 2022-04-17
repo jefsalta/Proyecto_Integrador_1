@@ -6,9 +6,6 @@ Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, pa
 ![estadísticas](/images/estadisticas.jpg)
 
 
-# Título del Proyecto
-
-_Acá va un párrafo que describa lo que es el proyecto_
 
 ## Comenzando 🚀
 
