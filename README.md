@@ -51,14 +51,6 @@ _Para la creación del presente proyecto utilizamos:_
 * [Python](https://www.python.org)
 
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
 ## Versión 📌
 
 Versión 1.0
