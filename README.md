@@ -1,9 +1,31 @@
 # Proyecto Estadística de Alumnos con csv
 **_Proyecto Integrador_** - _Python Inicial_
 
-Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, para determinar cantidad y procentajes de aprobados y desaprobados
-
 ![estadísticas](/images/estadisticas.png)
+
+
+Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, para determinar cantidad y procentajes de aprobados y desaprobados
+Esta pequeña aplicación nos permite trabajar con los datos de alumnos contenidos en un archivo CSV. En el archivo contamos con los los siguientes datos de los alumnos: el número de legajo del alumno, el nombre y apellido del alumno, la materia y 5 notas de dicha materia (notas entre 1 y 10, inclusive).
+
+En principio, se analizarán los datos y se mostrarán los resultados en la terminal.
+La funcionalidad mínima es la siguiente:
+
+Creación del archivo CSV si no existe o bien si deseamos reemplazar el archivo existente por uno nuevo
+Agregar datos de los alumnos, la materia y las notas obtenidas en dicha materia
+Determinar para cada alumno, en cada materia cursada la nota final del alumno (promedio de las 5 notas) y la condición final del alumno, según el siguiente criterio:
+
+item Si nota es menor a 6 => La condición será LIBRE
+item Si nota es mayor o igual a 6 y menor que 8 => La condición será REGULAR
+item Si nota es mayor o igual a 8 menor o igual a 10 => La condición será PROMOCIONADO
+
+La opción 4 nos mostraría las estadísticas de cada una de las materias; por ejemplo:
+•	Cantidad total de alumnos que cursaron la materia
+•	Cantidad de aprobados y desaprobados
+•	Porcentaje de aprobados y desaprobados
+•	Porcentaje de alumnos que tienen la condición de LIBRE
+•	Porcentaje de alumnos que tienen la condición de REGULAR
+•	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
+Finalmente, la opción 5 nos permitirá ver los datos de cada alumno y las notas obtenidas en cada una de las materias.
 
 
 
