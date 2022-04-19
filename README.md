@@ -3,7 +3,7 @@
 
 Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, para determinar cantidad y procentajes de aprobados y desaprobados
 
-![estadísticas](/images/estadisticasvf.jpg)
+![estadísticas](/images/estadisticas.jpg)
 
 
 
