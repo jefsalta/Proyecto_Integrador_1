@@ -54,7 +54,7 @@ Versión 1.0
 
 ## Autor ✒️
 
-* **Juan Eduardo Flores** - *Trabajo Inicial* - [jefsalta](https://github.com/jefsalta)
+* **Juan Eduardo Flores** - *Trabajo Integrador* - [jefsalta](https://github.com/jefsalta) - [mail](juaneflores@gmail.com)
 
 
 
