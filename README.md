@@ -14,18 +14,20 @@ Creación del archivo CSV si no existe o bien si deseamos reemplazar el archivo 
 Agregar datos de los alumnos, la materia y las notas obtenidas en dicha materia
 Determinar para cada alumno, en cada materia cursada la nota final del alumno (promedio de las 5 notas) y la condición final del alumno, según el siguiente criterio:
 
-item Si nota es menor a 6 => La condición será LIBRE
-item Si nota es mayor o igual a 6 y menor que 8 => La condición será REGULAR
-item Si nota es mayor o igual a 8 menor o igual a 10 => La condición será PROMOCIONADO
+- Si nota es menor a 6 => La condición será LIBRE
+- Si nota es mayor o igual a 6 y menor que 8 => La condición será REGULAR
+- Si nota es mayor o igual a 8 menor o igual a 10 => La condición será PROMOCIONADO
 
-La opción 4 nos mostraría las estadísticas de cada una de las materias; por ejemplo:
-•	Cantidad total de alumnos que cursaron la materia
-•	Cantidad de aprobados y desaprobados
-•	Porcentaje de aprobados y desaprobados
-•	Porcentaje de alumnos que tienen la condición de LIBRE
-•	Porcentaje de alumnos que tienen la condición de REGULAR
-•	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
-Finalmente, la opción 5 nos permitirá ver los datos de cada alumno y las notas obtenidas en cada una de las materias.
+Cálculo de estadísticas de cursado de cada una de las materias,por ejemplo:
+
+-	Cantidad total de alumnos que cursaron la materia
+-	Cantidad de aprobados y desaprobados
+-	Porcentaje de aprobados y desaprobados
+-	Porcentaje de alumnos que tienen la condición de LIBRE
+-	Porcentaje de alumnos que tienen la condición de REGULAR
+-	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
+
+Finalmente, podremos visualizar los datos de cada alumno y las notas obtenidas en cada una de las materias.
 
 
 
