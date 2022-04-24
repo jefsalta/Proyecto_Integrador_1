@@ -26,6 +26,7 @@ La opción 5 nos permite determinar las estadísticas de cursado de la materia s
 *	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
 
 La opción 6 nos permite determinar las mismas estadísticas de cursado de la opción anterior, pero en este caso de todas las materias contenidas en el CSV
+
 La opción 7 nos permite ver los datos de cada alumno y las notas obtenidas en cada una de las materias contenidas en el archivo CSV.
 
 
