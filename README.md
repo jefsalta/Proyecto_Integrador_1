@@ -1,7 +1,7 @@
 # Proyecto Estadística de Alumnos con csv
 **_Proyecto Integrador_** - _Python Inicial_
 
-![estadísticas](/images/estadisticas.PNG)
+![estadísticas](/images/estadisticas.png)
 
 
 En este proyecto trabajamos con una planilla CSV en la cual tenemos los siguientes datos correspondientes a alumnos: número de legajo, nombre y apellido del alumno, nombre de la materia que curso y 5 notas que obtuvo en dicha materia (las notas van del 1 al 10), tal como vemos en la imagen siguiente:
@@ -10,7 +10,7 @@ En este proyecto trabajamos con una planilla CSV en la cual tenemos los siguient
  
 Este pequeño aplicativo cuenta con un menú con las siguientes opciones:
  
-![menu](/images/opciones.png)
+![menu](/images/opciones.PNG)
 
 El aplicativo analiza los datos contenidos en el archivo CSV y se muestran los resultados solicitados en la terminal.
 La opción 1 nos permite determinar si sobreescribimos un archivo existente o bien si deseamos crear un archivo nuevo.
