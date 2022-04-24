@@ -4,65 +4,29 @@
 ![estadísticas](/images/estadisticas.png)
 
 
-Pequeña aplicación permite trabajar con datos de alumnos en un archivo csv, para determinar cantidad y procentajes de aprobados y desaprobados
-Esta pequeña aplicación nos permite trabajar con los datos de alumnos contenidos en un archivo CSV. En el archivo contamos con los los siguientes datos de los alumnos: el número de legajo del alumno, el nombre y apellido del alumno, la materia y 5 notas de dicha materia (notas entre 1 y 10, inclusive).
+En este proyecto trabajamos con una planilla CSV en la cual tenemos los siguientes datos correspondientes a alumnos: número de legajo, nombre y apellido del alumno, nombre de la materia que curso y 5 notas que obtuvo en dicha materia (las notas van del 1 al 10), tal como vemos en la imagen siguiente:
+ 
+Este pequeño aplicativo cuenta con un menú con las siguientes opciones:
+ 
+El aplicativo analiza los datos contenidos en el archivo CSV y se muestran los resultados solicitados en la terminal.
+La opción 1 nos permite determinar si sobreescribimos un archivo existente o bien si deseamos crear un archivo nuevo.
+La opción 2 nos permite agregar al archivo existente nuevos datos de alumnos, materia y las notas obtenidas en la misma
+La opción 3 nos permite calcular la nota final (promedio de las 5 notas) en cada materia y nos informa la condición final del alumno en dicha materia según el siguiente criterio:
+-	Si nota es menor a 6 => La condición será LIBRE
+-	Si nota es mayor o igual a 6 y menor que 8 => La condición será REGULAR
+-	Si nota es mayor o igual a 8 menor o igual a 10 => La condición será PROMOCIONADO
 
-En principio, se analizarán los datos y se mostrarán los resultados en la terminal.
-La funcionalidad mínima es la siguiente:
+La opción 4 nos permite calcular la nota final (promedio de las 5 notas) en la materia seleccionada y nos informa la condición final del alumno en dicha materia siguiendo el criterio anteriormente mencionado.
+La opción 5 nos permite determinar las estadísticas de cursado de la materia seleccionada; por ejemplo:
+	Cantidad total de alumnos que cursaron la materia
+*	Cantidad de aprobados y desaprobados
+*	Porcentaje de aprobados y desaprobados
+*	Porcentaje de alumnos que tienen la condición de LIBRE
+*	Porcentaje de alumnos que tienen la condición de REGULAR
+*	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
 
-Creación del archivo CSV si no existe o bien si deseamos reemplazar el archivo existente por uno nuevo
-Agregar datos de los alumnos, la materia y las notas obtenidas en dicha materia
-Determinar para cada alumno, en cada materia cursada la nota final del alumno (promedio de las 5 notas) y la condición final del alumno, según el siguiente criterio:
-
-- Si nota es menor a 6 => La condición será LIBRE
-- Si nota es mayor o igual a 6 y menor que 8 => La condición será REGULAR
-- Si nota es mayor o igual a 8 menor o igual a 10 => La condición será PROMOCIONADO
-
-Cálculo de estadísticas de cursado de cada una de las materias,por ejemplo:
-
--	Cantidad total de alumnos que cursaron la materia
--	Cantidad de aprobados y desaprobados
--	Porcentaje de aprobados y desaprobados
--	Porcentaje de alumnos que tienen la condición de LIBRE
--	Porcentaje de alumnos que tienen la condición de REGULAR
--	Porcentaje de alumnos que tienen la condición de PROMOCIONADOS
-
-Finalmente, podremos visualizar los datos de cada alumno y las notas obtenidas en cada una de las materias.
-
-
-
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+La opción 6 nos permite determinar las mismas estadísticas de cursado de la opción anterior, pero en este caso de todas las materias contenidas en el CSV
+La opción 7 nos permite ver los datos de cada alumno y las notas obtenidas en cada una de las materias contenidas en el archivo CSV.
 
 
 ## Construido con 🛠️
